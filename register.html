@@ -9,7 +9,7 @@
 <div class="container my-5">
     <div class="bg-dark text-white p-4 rounded">
         <h2 class="text-center mb-4">Ich möchte ein Konto anlegen</h2>
-        <form action="/logic/registerprozess.php" method="post">
+        <form action="/logic/registerprozess.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="accountTypeSelect" class="form-label">Art des Kontos</label>
                 <select id="accountTypeSelect" class="form-select" name="account_type">
