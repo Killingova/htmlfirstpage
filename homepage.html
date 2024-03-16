@@ -11,19 +11,21 @@
 </head>
 <body>
 <div>
-    <a href="eintritt.html" title="Login">Herzlich Willkomen</a>
-    <a href="lieblingsseiten.html" title="Seiten">Meine Lieblingsseiten</a>
-    <a href="#mehrinformation" title="Mehr Information">Information</a>
+    <ul>
+        <li><a href="eintritt.html" title="Login">Herzlich Willkomen</a></li>
+        <li><a href="lieblingsseiten.html" title="Seiten">Meine Lieblingsseiten</a></li>
+        <li><a href="#mehrinformation" title="Mehr Information">Information</a></li>
     <!-- Um auf einen Abschnitt innerhalb derselben Seite zu verlinken,
     musst du eine Anker-ID verwenden. In deinem Fall hast du bereits ein Element mit der ID mehrinformation
     (<div id = "mehrinformation">). Um den Link korrekt zu setzen, solltest du href mit einem Hash (#) gefolgt von der ID des Zielsegments setzen.
     So weiß der Browser, dass er nach einem Element mit dieser ID auf der aktuellen Seite suchen soll. -->
+    </ul>
 </div>
-<div>
-    <img src ="img/baer.jpg" alt="Bär">
-    <img src="img/fox.jpg" alt="Fuchs">
-    <img src="img/wolf.jpg" alt="Wolf">
-    <img src="img/hirsch.jpg" alt="Hirsch">
+<div>.-
+    <img src ="img/baer.jpg" alt="Bär" width="300" height="300">
+    <img src="img/fox.jpg" alt="Fuchs" width="300" height="300">
+    <img src="img/wolf.jpg" alt="Wolf" width="300" height="300">
+    <img src="img/hirsch.jpg" alt="Hirsch" width="300" height="300">
 </div>
 <div>
     <h1>
@@ -66,9 +68,13 @@
     </p>
 </div>
 <div>
-    <p>
-    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1280px-Hauskatze_langhaar.jpg"  alt="Katze" >
-    </p>
+    <figure>
+    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hauskatze_langhaar.jpg/1280px-Hauskatze_langhaar.jpg"  alt="Katze" width="500" height="480" >
+        <figcaption>
+            Eine Hauskatze<br>Uhrheber: Nicolai Schäfer,
+            Lizenz:<a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>
+        </figcaption>
+    </figure>
 </div>
 <div>
     <h5>

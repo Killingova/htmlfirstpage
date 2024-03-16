@@ -7,8 +7,20 @@
     <meta name="keywords" content="Links, Lieblingsseiten">
     <meta name="author" content="Max Mustermann">
 </head>
-
 <body>
+<li><a href="homepage.html" title="back">Home</a>
+<audio id="audioPlayer" controls autoplay>
+    <source src="audio/bensound-charmolipi.mp3" type="audio/mp3">
+    Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        var player = document.getElementById('audioPlayer');
+        player.volume = 0.5; // Setzt die Lautstärke auf 50%
+    });
+</script>
+
 <h1>Meine Lieblingsseiten</h1>
 <a href="https://wikipedia.de/" title="Onlineenzyklopädie" target="_blank">Wikipedia</a><br>
 <a href="https://www.daserste.de/" title="Fernsehprogramm" target="_blank">Fernsehprogramm ARD</a><br>
@@ -22,5 +34,25 @@ sucht der Browser nicht nach einer geeigneten Stelle innerhalb der aktuellen Sei
 sondern öffnet die verlinkte Seite in einer neuen Registerkarte oder in einem neuen Fenster.
 Dies ist besonders nützlich, wenn du möchtest, dass die Besucher deiner Webseite leicht auf externe Inhalte zugreifen können,
 ohne deine Seite verlassen zu müssen. -->
+<h1>Einkaufsliste</h1>
+<ul>
+    <li>Mehl</li>
+    <li>Zucker</li>
+    <li>Tomaten</li>
+    <li>Kaffee</li>
+    <li>Butter</li>
+    <li>Käse</li>
+    <li>Brot</li>
+    <li>Zahncreme</li>
+    <li>Orangensaft</li>
+</ul>
+<ol type="I">
+    <li>Sven Mayer</li>
+    <li>Thorsten Müller</li>
+    <li>Kevin Richter</li>
+    <li>Karsten Bauer</li>
+    <li>Daniel Bayer</li>
+    <li>Joachim Hübner</li>
+</ol>
 </body>
 </html>
